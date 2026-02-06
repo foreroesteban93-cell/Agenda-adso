@@ -1,1 +1,1 @@
-export default function App() { const fecha = new Date().toLocaleString(); return ( <main> <h1>Hola SENA</h1></main>)}
+export default function App() { const fecha = new Date().toLocaleString(); return ( <main> <h1>Hola, soy Esteban - Aprendiz ADSO</h1><p>me gustaria profundizar mis conocimientos en el desarrollo web</p></main>)}
