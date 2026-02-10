@@ -1,4 +1,5 @@
-// ejercicio2.js
+// Ejercicio 2
+
 const aprendices = [
 { nombre: "Ana", nota: 4.2 },
 { nombre: "Luis", nota: 2.8 },
