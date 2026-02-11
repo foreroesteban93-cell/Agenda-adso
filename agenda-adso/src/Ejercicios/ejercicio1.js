@@ -1,4 +1,4 @@
-//ejercicios.js
+// ejercicios.js
 const nombre = "Carolina";
 const ficha = 3223874;
 const nota1 = 4.0;
@@ -10,5 +10,4 @@ console.log(`Aprendiz: ${nombre}`);
 console.log(`Ficha: ${ficha}`);
 console.log(`Promedio: ${promedio.toFixed(2)}`);
 const aprobado = promedio >= 3.0;
-console.log(`Estado: ${aprobado ? 'APROBADO' : 'no aprobado'}`);
-
+console.log(`Estado: ${aprobado ? 'APROBADO' : 'NO APROBADO'}`);
