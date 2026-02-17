@@ -1,52 +1,49 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  background-color: #f0f4f8;
-  border-radius: 10px;
-}
+/* === Estilos globales para la app React === */
 
+/* Fuente base y fondo general */
 body {
-  background-color: #dbeafe;
+  font-family: sans-serif;
+  background-color: #f2f2f2; /* gris claro */
+  color: #222; /* texto oscuro legible */
   margin: 0;
+  padding: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+/* Enlaces */
+a {
+  color: #008037; /* verde SENA */
+  text-decoration: none;
 }
 
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+a:hover {
+  text-decoration: underline;
 }
 
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Botones genéricos */
+button {
+  background-color: #008037;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 14px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-color: #006b2f; /* verde más oscuro */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Imágenes responsivas */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-.card {
-  padding: 2em;
+/* Centramos el contenido principal */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
 }
-
-.read-the-docs {
-  color: #888;
-}
-
